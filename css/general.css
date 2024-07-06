@@ -1,0 +1,146 @@
+*:focus{
+outline: none;
+box-shadow:  0 0 0 0.8rem rgba(230, 125, 34, 0.504);
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+ margin-bottom: 9.6rem;
+  
+}
+.grid:last-child{
+  margin-bottom: 0;
+}
+
+
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center--v{
+  align-items: center;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 9px;
+
+border: none;
+cursor: pointer;
+font-family: inherit;
+
+  display: inline-block;
+  transition: all 0.1s;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+.btn--learnmore:link,
+.btn--learnmore:visited {
+  background-color: #fff;
+  color:#45260a;
+}
+.btn--learnmore:hover,
+.btn--learnmore:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form{
+  background-color: #45260a;
+  color: #fdf2e9;
+  padding: 1.2rem;
+  align-self: end;
+}
+.btn--form:hover{
+  background-color: #fff;
+color: #333;
+}
+.heading-primary,.secondary-heading {
+  font-weight: 700;
+    color: #333;
+  letter-spacing: -0.5px;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.secondary-heading{
+  font-size: 4.4rem;
+  line-height: 1.2;
+  color: #333;
+  letter-spacing: -0.5;
+  margin-bottom: 9.6rem;
+}
+
+.sub-heading{
+  display: block;
+  font-size: 1.6rem ;
+  font-weight: 500;
+color:#cf711f;
+margin-bottom: 1.6rem;
+text-transform: uppercase;
+letter-spacing: 0.75px;
+}
+
+.heading-tershary{
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2.8rem;
+}
+.list{
+  list-style: none;
+  display: flex;
+flex-direction: column;
+gap: 1.5rem;
+padding: 0;
+}
+.list-item{
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+ line-height: 1.2;
+}
+.list-icon{
+  height: 3rem;
+  width: 3rem;
+  color: #e67e22;
+}
+.margine-bottom-md{
+  margin-bottom: 4.8rem !important;
+}
